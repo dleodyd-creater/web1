@@ -17,6 +17,12 @@
 <!-- <ol> ordered list 태그는 자동으로 web에서 자동으로 숫자표기-->
 
   <h2>HTML5</h2>
+<p>  <!-- 동영상 삽입 iframe -->
+  <iframe width="1280" height="720"
+  src="https://www.youtube.com/embed/7T7r_oSp0SE?list=PLuHgQVnccGMDZP7FJ_ZsUrdCGH68ppvPb"
+  frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
+
   <p><a href="https://www.w3.org/TR/html52/" target="_blank" title="html52 speicifaction">
                            <!-- 링크,        링크를 새창열어서,       툴팁 넣기 -->
 <li> HTML이란 무엇인가?</li></a>
@@ -37,6 +43,25 @@
 <!-- 줄바꿈 -->
 <br><br><br>  HTML is the standard markup language for Web pages.
 With HTML you can create your own Website.
+<!--댓글기능추가-->
+<p>
+  <div id="lv-container" data-id="city" data-uid="MTAyMC80OTM1MS8yNTg0Mw==">
+	<script type="text/javascript">
+   (function(d, s) {
+       var j, e = d.getElementsByTagName(s)[0];
+
+       if (typeof LivereTower === 'function') { return; }
+
+       j = d.createElement(s);
+       j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+       j.async = true;
+
+       e.parentNode.insertBefore(j, e);
+   })(document, 'script');
+	</script>
+<noscript> 라이브리 댓글 작성을 위해 JavaScript를 활성화 해주세요</noscript>
+</div>
+</p>
 <!-- 이미지넣기 크기조정 -->
 <img src="conding.jpg" width=800">
 <!-- 단락 -->
@@ -49,5 +74,18 @@ With HTML you can create your own Website.
 HTML is easy to learn - You will enjoy it!
 
 <!-- 검색엔진에서 노출되게하기 위해선 h1(제목)이 중요 *비즈니스에선 굉장히 중요 -->
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/5e80549b69e9320caabe1a01/default';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
 </body>
 </html>
